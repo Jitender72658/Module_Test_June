@@ -131,12 +131,20 @@
     </div>
 
     <!-- Carousel -->
-    <div class="carousel1" id="carousel">
+    <div class="carousel" id="carousel">
         <div class="carousel-head mb-5">
             <h1 class="carousel-header">Carousel</h1>
             <div class="carousel-bar"></div>
         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- indicators -->
+            <ul class="carousel-indicators ">
+                <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExample" data-bs-slide-to="4"></li>
+              </ul>
             <!-- Slides -->
             <div class="carousel-inner">
               <div class="carousel-item first-slide active">
@@ -243,7 +251,7 @@
 
     <!-- footer -->
 
-    <footer class="footer row" id="footer">
+    <footer class="footer d-flex justify-content-between" id="footer">
         <div class=" col-md-7 footer-div-1">
            <img src="./Images/Group.png" alt="group">
         </div>
