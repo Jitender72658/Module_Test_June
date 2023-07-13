@@ -44,7 +44,7 @@ header{
 
 .main-content{
     background-image: url(./Images/pizza1.png);
-    margin-top: 100px;
+    margin-top: 70px;
     margin-right:0px;
     margin-left:0px;
     box-sizing:border-box;
@@ -147,7 +147,7 @@ header{
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0.09em;
-    text-align: center;
+    text-align: start;
 }
 .menu-content{
     margin-top:30px;
